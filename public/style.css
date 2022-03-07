@@ -1,0 +1,462 @@
+html {
+    font-family: 'Roboto', sans-serif
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(30,30,30);
+    color: gainsboro;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(40,40,40);
+    font-weight: 600;
+    font-size: larger;
+}
+
+header a{
+    color: orange;
+    text-decoration: none;
+    display: inline;
+}
+
+.site-title {
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar {
+    background-color: rgb(45, 45, 45);
+    font-size: 18px;
+    line-height: 22px;
+    padding: 4px;
+    font-weight: 400;
+}
+
+.navlist {
+    margin: 0 0 0 0px;
+    padding: 0px;
+}
+
+.navitem {
+    display: inline-block;
+}
+
+
+a:hover,
+a:focus {
+    color: orangered;
+}
+
+a:focus {
+    outline: none;
+}
+
+.navlink a {
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+.profile {
+    float: right;
+    margin-right: 8px;
+    padding: 0;
+    line-height: 38px;
+}
+
+/*End of Nav stuff*/
+
+.food-container {
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-around;
+
+}
+
+.food {
+    margin:20px;
+    padding: 20px;
+    background-color:  rgb(45,45,45);
+    flex: 1 32%;
+    text-align: center;
+
+    /*max-height: 2200px;*/
+    max-width: 620px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.food-photo {
+    max-height: 600px;
+    max-width: 600px;
+    border-radius: 6px;;
+}
+
+.food-info {
+    margin: 18px;
+    color: orange;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+
+}
+/*
+.name {
+    float: left;
+}
+
+.time {
+    float: right;
+}
+*/
+/*matches stuff*/
+.match-content{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-top:20px;
+}
+
+.match-content div {
+    text-align: left;
+}
+
+.food-ingredients{
+    color: gainsboro;
+}
+
+.food-ingredients div{
+    text-align: left;
+    font-size: 22px;
+}
+
+.food-directions{
+    color: gainsboro;
+    margin-top: 10px;
+}
+
+.food-directions div{
+    text-align: left;
+    font-size: 22px;
+}
+
+/*eo matches stuff*/
+
+.button-bar {
+    width: 100%;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button-bar button{
+    color: black;
+    padding: 12px;
+    font-size: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px;
+
+    padding-left: 21%;
+    padding-right: 21%
+}
+#trash {
+    background-color: rgb(218, 49, 49);
+}
+#trash:hover{
+    background-color: rgb(170, 5, 5);
+}
+
+#utensils {
+    background-color: rgb(49, 218, 134);
+}
+#utensils:hover{
+    background-color: rgb(10, 158, 84);
+}
+
+.see-more {
+    background-color: orange;
+    padding: 2px 26px 6px 26px;
+}
+.see-more:hover {
+    background-color: orangered;
+}
+
+/*recipe modal*/
+
+#modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.85);
+
+}
+
+#recipe-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1010;
+    overflow: scroll;
+}
+
+.hidden {
+    display: none;
+    color: black;
+}
+
+.modal-dialog {
+    width: auto;
+    max-width: 800px;
+    min-width: 100px;
+    min-height: 300px;
+    margin: 40px auto;
+    background-color: gainsboro;
+    color:black;
+    border-radius: 15px;
+}
+
+.modal-header {
+    position: relative;
+    padding: 10px 20px;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 28px;
+    color: black;
+}
+
+.modal-header h2 {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.modal-close-button {
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    font-size: 24px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-content-ing {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.modal-content-ing div{
+    font-size: 24px;
+    align-self:flex-start;
+}
+
+.modal-content-ins {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 24px;
+}
+
+.modal-content-ins div{
+    font-size: 24px;
+    align-self:flex-start;
+}
+
+.ingredients {
+    padding-left: 20px;
+}
+
+.ingredients li{
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.instructions li{
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/*not-match-modal*/
+#not-match-modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.85);
+
+}
+
+#not-match-modal {
+    position: fixed;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1010;
+    overflow: scroll;
+}
+
+.not-match-modal-dialog {
+    width: auto;
+    max-width: 400px;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 40px auto;
+    background-color: gainsboro;
+    border-radius: 15px;
+}
+
+.modal-header .heart{
+    font-size: 100px;
+    color: rgb(219, 22, 22)
+}
+
+/*create a profile modal*/
+
+#create-profile-modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.85);
+
+}
+
+#create-profile-modal {
+    position: fixed;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1010;
+    overflow: scroll;
+    color: black
+}
+
+.create-profile-modal-dialog {
+    width: auto;
+    max-width: 600px;
+    min-width: 100px;
+    min-height: 340px;
+    margin: 40px auto;
+    background-color: gainsboro;
+    border-radius: 15px;
+}
+
+.tags-container {
+    display:grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.profile-button-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 10px 10px;
+}
+
+.profile-button-bar button{
+    color: black;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+#cancel {
+    background-color: rgb(207, 207, 207);
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#submit {
+    background-color: orange;
+    border-color:black;
+    border: 1px;
+    border-style: solid;
+}
+/* 404 page */
+
+.error{
+    text-align: center;
+}
+
+.error h2{
+    font-size: 64px;
+    margin-bottom: 20px;
+
+}
+
+.error h3{
+    font-size: 18px;
+}
+
+.error .heart{
+    font-size: 200px;
+    color: rgb(219, 22, 22)
+}

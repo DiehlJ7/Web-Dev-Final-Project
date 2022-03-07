@@ -1,0 +1,149 @@
+[
+	{
+		"name": "Broccoli Beef",
+		"time": "30 minutes",
+		"photo": "./photos/broccoli_beef.jpg",
+		"ingredients": ["1/4 cup all-purpose flour", "1 (10.5 ounce) can beef broth", "2 tablespoons white sugar", "1 pound boneless round steak, cut into bit size pieces",
+				"1/4 teaspoon chopped fresh ginger", "1 clove garlic, minced", "4 cups chopped fresh broccoli"],
+		"directions": ["In a small bowl, combine flour, broth, sugar, and soy sauce. Stir until sugar and flour are dissolved.", "In a large skillet or wok over high heat, cook and stir beef 2-4 minutes, or until browned.", "Stir in broth mixture, ginger, garlic, and broccoli. Bring to a boil, then reduce heat.", "Simmer 5-10 minutes, or until sauce thickens."],
+		"tags": ["chinese", "savory", "beef", "vegetable", "lunch", "dinner"]
+	},
+
+	{
+		"name": "Top Ramen",
+		"time": "5 minutes",
+		"photo": "./photos/top_ramen.jpg",
+		"ingredients": ["1 packet chicken top ramen", "2 cups water"],
+		"directions": ["Boil water in saucepan. Add noodles, breaking up if desired. Cook for three minutes or until noodles are tender, stirring occasionally", "Remove from heat. Stir in seasonings from the flavor packet."],
+		"tags": ["chinese", "japanese", "easy", "lunch"]
+
+	},
+
+	{
+		"name": "Fudge Truffle Cheesecake",
+		"time": "1 hour 20 minutes",
+		"photo": "./photos/chocolate_cheesecake.jpg",
+		"ingredients": ["1 1/2 cups vanilla wafer crumbs", "6 tablespoons powdered sugar", "1/3 cup unsweetened cocoa powder", "1/3 cup butter, melted", "3 (8 ounce) packages cream cheese, softened", "14 ounce can of sweatened condensed milk", "2 cups semi-sweet chocolate chips, melted", "4 large eggs", "2 teaspoons vanilla extract"],
+		"directions": ["Heat oven to 300 degrees Fahrenheit. Combine wafer crumbs, powdered sugar, cocoa and putter in medium bowl. Press firmly onto bottom and 1/2 inch up side of ungreased 9-inch springform pan.", "Beat cream cheese in large bowl until fluffy. Gradually beat in sweetened condensed milk until smooth. Add remaining ingredients and mix well. Pour into prepared pan.", "Bake 1 hour and 5 minutes or until center is set. Cool, chill, and garnish as desired."],
+		"tags": ["sweet", "chocolate", "dessert"]
+
+	},
+	
+	{
+		"name": "Marinated Rib-eye Steak",
+		"time": "25 minutes + sit overnight",
+		"photo": "./photos/ribeye_steak.jpg",
+		"ingredients": ["2 tablespoons olive oil", "2 tablespoons lemon juice", "2 tablespooons soy sauce", "2 tablespoons Worcestershire sauce", "1 large stem rosemary, de-stalked", "1 clove garlic, bruised", "Generous pinch dried red chilli flakes", "freshly ground black pepper", "Olive oil for frying", "2 rib-eye steaks"],
+		"directions": ["Place all the marinade ingredients in a bowl and mix to combine. Coat the meat in the marinade, cover and chill overnight.", "Remove the meat from the fridge and bring to room temperature. If you’re pan frying, heat a griddle pan until searingly hot. Drizzle a little olive oil on the meat and season with salt. Place the meat in the pan and cook for about 3–4 minutes. Turn and cook for an additional 3 minutes or to your liking.", "Pour the remaining marinade over the meat to deglaze the pan and turn the meat to coat in the sticky pan juices.", "If you’re cooking the meat over coals, baste the rib-eye with the left-over marinade while on the coals. Cover the meat with foil and rest for a couple of minutes before carving. Serve as is or with pesto and sides."],
+		"tags": ["savory", "beef", "dinner"]
+	},
+
+	{
+		"name": "BBQ Chicken Salad",
+		"time": "25 minutes",
+		"photo": "./photos/chicken_salad.jpg",
+		"ingredients": ["2 boneless skinless chicken breasts", "2 teaspoons extra-virgin olive oil", "1/2 teaspoon kosher salt", "1/4 teaspoon ground black pepper", "2 tablespoons homemade barbecue sauce", "6 cups chopped romain lettuce", "1 cup cherry tomatoes, halved", "1 cup canned low-sodium black beans, rinsed and drained", "1/2 cup canned Mexicorn, drained", "1/4 cup diced red onion", "Crushed tortilla chips", "Chopped fresh cilantro", "1/3 cup repared light ranch dressing", "1 tablespoon barbecue sauce"],
+		"directions": ["Preheat grill to medium-high heat. Brush both sides of the pounded chicken breast with olive oil and sprinkle with salt and pepper. Grill on one side for 4 minutes, flip, brush the grilled sides with barbecue sauce, then grill the other side for 3-4 minutes, until the chicken is cooked through.", "Place on a serving plate and brush the other grilled side with barbecue sauce. Cover and let rest for 5 minutes, then chop into bite-sized pieces.", "Prepare the dressing: In a small bowl or measuring cup with a spout, stir together the ranch dressing and barbecue sauce. Taste and adjust the ratio as desired.", "In a large serving bowl, combine the romaine, tomatoes, beans, Mexicorn, red onion, and chopped chicken. Drizzle the salad with dressing, then toss to lightly coat. Serve immediately, topped with crushed tortilla chips and cilantro."],
+		"tags": ["crisp", "chicken", "vegetable", "lunch"]
+	},
+
+	{
+		"name": "Grilled Cheese",
+		"time": "15 minutes",
+		"photo": "./photos/grilled_cheese.jpg",
+		"ingredients": ["4 slices good quality pre-sliced bread", "2 slices muenster cheese", "2 slices Asiago cheese", "2 slices cheddar cheese", "2 teaspoons Dijon mustard", "3 tablespoons of butter", "1 clove garlic, crushed", "1 pinch red pepper flakes", "1 pinch thyme"],
+		"directions": ["Melt 2 tablespoons butter in a sauce pan with garlic, red pepper flakes, and thyme", "Lightly simmer, careful not to burn the butter.", "Spread 1/2 teaspoon of Dijon mustard onto each slice of bread", "On two of the slices of bread, add one slice of cheddar cheese, one slice of muenster cheese, and one slice of Asiago cheese", "Place the other slice of bread on top of the cheese. The sides with the Dijon mustard should be touching the cheese.", "Using a pastry brush, brush the butter onto the top and bottom of both sandwiches until all the butter is gone", "Heat a skillet over medium heat and melt a tablespoon of butter in the skillet", "When melted, cook your sandwiches until both sides are golden brown and the cheese is melted"],
+		"tags": ["cheese", "easy", "lunch"]
+	},
+
+	{
+		"name": "Avocado Toast",
+		"time": "5 minutes",
+		"photo": "./photos/avocado_toast.jpg",
+		"ingredients": ["1 slice of bread", "1/2 ripe avocado", "Pinch of salt", "Flaky sea salt (optional)"],
+		"directions": ["Toast your slice of bread until golden and firm.", "Remove the pit from your avocado. Use a big spoon to scoop out the flesh. Put it in a bowl and mash it up with a fork until it’s as smooth as you like it.", "Mix in a pinch of salt (about 1/8 teaspoon) and add more to taste, if desired.", "Spread avocado on top of your toast. Enjoy as-is or top with a light sprinkle of flaky sea salt"],
+		"tags": ["fruit", "easy", "breakfast"]
+	},
+
+	{
+		"name": "Chicken Fettuccine Alfredo",
+		"time": "25 minutes",
+		"photo": "./photos/chicken_fettuccine_alfredo.jpg",
+		"ingredients": ["Kosher salt", "Freshly ground black pepper", "12 ounces fettuccine", "Olive oil, for tossing", "12 ounces boneless, skinless chicken breast (about 2)", "1 stick (8 tablespoons) unsalted butter", "2 cups heavy cream", "2 pinches freshly grated nutmeg", "1 1/2 cups freshly grated Parmigiano-Reggiano"],
+		"directions": ["Bring a large pot of water to a boil and salt generously. Add the pasta and cook according to package directions until al dente (tender but still slightly firm). Drain and toss with a splash of oil.", "Slice the chicken into 1/4-inch-thick strips, and lay them on a plate or a sheet of waxed paper. Season with salt and pepper.", "Heat a large skillet over medium heat. Add 2 tablespoons of butter. When the butter melts, raise heat to medium-high and add the chicken in 1 layer. Cook, without moving the pieces, until the underside has browned, 1-2 minutes. Flip the pieces, and cook until browned and cooked through, 2-3 minutes more. Transfer the chicken to a medium bowl.", "Reduce the heat to medium. Add the remaining 6 tablespoons butter. Scrape the bottom of the skillet with a wooden spoon to release any browned bits. When the butter has mostly melted, whisk in the cream and nutmeg and bring to a simmer, then cook for 2 minutes. Lower the heat to keep the sauce just warm.", "Whisk the Parmigiano-Reggiano into the sauce. Add the chicken and cooked pasta and toss well. Season with salt and pepper. Serve hot in heated bowls."],
+		"tags": ["italian", "chicken", "lunch", "dinner"]
+	},
+
+	{
+		"name": "White Chicken Chilli",
+		"time": "50 minutes",
+		"photo": "./photos/white_chicken_chilli.jpg",
+		"ingredients": ["1 small yellow onion, diced", "1 tablespoon olive oil", "2 cloves garlic, finely minced", "2 (14.5 oz) cans low-sodium chicken broth", "1 (7 oz) can diced green chilies", "1 1/2 teaspoon cumin", "1/2 teaspoon paprika", "1/2 teaspoon dried oregano", "1/2 teaspoon ground coriander", "1/4 teaspoon cayenne pepper", "Salt and freshly ground black pepper, to taste", "1 (8 oz) pkg Neufchatel cheese (light cream cheese), cut into small cubes", "1 1/4 cup frozen or fresh corn", "2 (15 oz) cans cannellini beans", "2 1/2 cups shredded cooked rotisserie or left-over chicken", "1 tablespoon fresh lime juice", "2 tablespoons chopped fresh cilantro, plus more for serving", "Tortilla chips or strips, monterrey jack cheese, sliced avocado for serving (optional)"],
+		"directions": ["Heat olive oil in a 6 quart enameled dutch oven over medium-high heat. Add onion and saute 4 minutes. Add garlic and saute 30 seconds longer.", "Add chicken broth, green chilies, cumin, paprika, oregano, coriander, cayenne pepper and season with salt and pepper to taste. Bring mixture just to a boil then reduce heat to medium-low and simmer 15 minutes.", "Drain and rinse beans in a fine mesh strainer or colander then measure out 1 cup. Set whole beans aside, transfer 1 cup beans to a food processor along with 1/4 cup broth from soup, puree until nearly smooth.", "Add Neufchatel cheese to soup along with corn, whole beans and pureed beans and stir well. Simmer 5-10 minutes longer.", "Stir in chicken, fresh lime juice and cilantro. Serve with Monterrey Jack cheese, more cilantro, avocado slices and tortilla chips if desired."],
+		"tags": ["spicy", "chicken", "lunch", "dinner"]
+	},
+
+	{
+		"name": "Creamy Tuscan Gnocchi",
+		"time": "25 minutes",
+		"photo": "./photos/tuscan_gnocchi.jpg",
+		"ingredients": ["2 tablespoons butter or olive oil", "1 brown shallot, chopped (or 1 small onion)", "4 cloves garlic, minced", "1 pound (500 g) uncooked potato gnocchi, (the dry packaged gnocchi -- not fresh)", "1/2 cup jarred sun dried tomato strips in oil, (reserve 2 teaspoons of the jarred oil for cooking)", "1/2 cup chicken broth", "1 1/4 cups heavy cream (thickened cream or half andf half)", "1 teaspoon dried Italian herbs", "salt and pepper, to taste", "1 1/2 cups fresh baby spinach", "1/2 cup fresh grated parmesan cheese", "2 tablespoons fresh chopped basil or parsley"],
+		"directions": ["Heat a large skillet over medium-high heat. Melt the butter and sauté shallots until transparent, about 2 minutes. Sauté garlic until fragrant, about 30 seconds.", "Add the gnocchi and let sear in the butter for a minute. Add the sun dried tomatoes and reserved oil. Cook for a further minute to release flavours into the gnocchi.", "Pour in the chicken broth, cream and Italian herbs. Scrape up any browned bits from the bottom of the pan.", "Season with salt and pepper to taste. Mix everything together and reduce heat to medium. Cover pan with lid and let cook for 5 minutes.", "Stir in the spinach leaves and cook until wilted, about 1 minute.", "Stir through parmesan cheese and chopped basil. Let simmer for a further minute or until gnocchi is soft, cooked through and the sauce has thickened to your liking.", "Season with a little extra salt & pepper, if needed, to suit your taste."],
+		"tags": ["italian", "savory", "creamy", "chicken", "lunch", "dinner"]
+	},
+
+	{
+		"name": "Easy Drop Dumplings",
+		"time": "20 minutes",
+		"photo": "./photos/dumplings.jpg",
+		"ingredients": ["2 cups all-purpose flour", "4 teaspoons baking powder", "1 teaspoon salt", "1 cup milk (or water)", "Stew or soup, for cooking and serving"],
+		"directions": ["Gather the ingredients.", "Sift the flour, baking powder, and salt together in a large bowl.", "Add the milk or water and mix. The batter should be thick enough to be scooped and dropped from a spoon. Let it rest for a moment.", "Once the boiling stew or soup is nearly done, drop spoonfuls of the batter on top. Be sure that there is plenty of liquid in the pot, but try to keep the dumplings on top of the vegetables and meat.", "Cover and cook for about 10 to 15 minutes, depending on the size of the dumplings. Do not remove the lid until it is time to check the dumplings; when ready, a toothpick inserted into one of the dumplings should come out clean.", "Once done, spoon the stew or soup with the dumplings into a bowl and enjoy."],
+		"tags": ["chinese", "easy", "side"]
+	},
+
+	{
+		"name": "Pad Thai",
+		"time": "30 minutes",
+		"photo": "./photos/pad_thai.jpg",
+		"ingredients": ["4 ounces dry pad thai noodles (rice noodles)", "Boiling water to cover noodles", "1 large shallot, finely diced", "4 chopped garlic cloves", "1 teaspoon chopped ginger (optional)", "2 eggs, whisked with a fork with a generous 3-finger pinch salt", "6–8 ounces chicken breast", "Salt and pepper to taste", "2 tablespoons peanut oil", "1 lime", "3 tablespoons fish sauce", "3 tablespoons brown sugar", "3 tablespoons of rice vinegar", "1 teaspoon soy sauce", "Lime wedges", "Fresh bean sprouts", "Chili flakes", "Chopped scallions", "Roasted peanuts"],
+		"directions": ["Place rice noodles in a shallow bowl or baking dish and boil enough water to cover them. Cover with boiling water for 7-8 minutes, until tender, then drain. They don’t have to be totally soft, just bendy and pliable", "Chop shallot, garlic and ginger and set aside.", "Whisk the two eggs in a bowl with a fork and add a generous, 3-finger pinch of salt. Set aside.", "Whisk fish sauce, rice vinegar, brown sugar and soy sauce in a small bowl. Set aside.", "Slice chicken into very thin strips and season with salt and pepper", "Sear the seasoned chicken in a wok with hot oil until cooked through over medium-high heat. Set aside, on top of a paper towel, wipe out the pan. Turn heat off.", "Gather your chopped shallots, whisked eggs, cooked noodles, cooked chicken and Pad Thai sauce around the stove. Heat 2 tablespoons peanut oil in the wok over medium heat, add shallot-garlic-ginger and stir, cooking just a few minutes until golden and fragrant.", "Make a well in the center of the wok, scooting the shallot mixture to the side of the pan, add the whisked eggs. With a metal spatula, scramble them and break them apart into little bits, letting them brown just a little, and incorporate them into the shallots continuing to break them into small bits.", "Add the drained, semi-soft noodles and toss with the egg mixture, stirring, flipping, frying constantly for 3-4 minutes until noodles become soft and pliable.", "Add the Pad Thai Sauce and cook 1 minute.  It will smell quite fishy at first – turn your fan on – but it will mellow out perfectly. Add the cooked chicken and turn and toss the noodles for a few more minutes. Cook until the noodles are soft (but still a little chewy) adding just a little water if it seems too dry.", "Toss in the bean sprouts and roasted peanuts (or serve on the side) and sprinkle with chili flakes and scallions. Squeeze with a little lime juice. Taste. Adjust salt, lime and sweetness to your liking adding a pinch of salt, more lime or more a pinch more sugar to taste. Give one more toss and serve immediately.", "Garnish with more bean sprouts, fresh scallions, cilantro or basil, chili flakes, lime wedges and roasted crushed peanuts."],
+		"tags": ["thai", "savory", "chicken", "lunch", "dinner"]
+	},
+
+	{
+		"name": "Chinese Cabbage Salad",
+		"time": "20 minutes",
+		"photo": "./photos/chinese_salad.jpg",
+		"ingredients": ["2 tablespoons sesame seeds", "1 1/2 tablespoons rice vinegar", "1/2 teaspoon sesame oil", "2 tablespoons white sugar", "1/2 teaspoon salt", "1/4 teaspoon black pepper", "1/3 cup olive oil", "4 cups shredded cabbage", "2 carrots, shredded", "1 (3 ounce) package ramen noodles, crushed"],
+		"directions": ["In a small skillet, toast sesame seeds over medium heat until golden brown and fragrant.", "In a small bowl, mix together vinegar, sesame oil, olive oil, sugar, salt, pepper, and ramen seasoning packet.", "In a large bowl, mix together cabbage, carrots, and crushed ramen noodles. Toss with dressing to coat evenly. Top with toasted sesame seeds"],
+		"tags": ["chinese", "sweet", "vegetable", "side"]
+	}, 
+
+	{
+		"name": "Japanese Okonomiyaki",
+		"time": "25 minutes",
+		"photo": "./photos/okonomiyaki.jpg",
+		"ingredients": ["12 ounces sliced bacon", "1 1/3 cups water", "4 eggs", "3 cups all-purpose flour", "1 teaspoon salt", "1 medium head cabbage, cored and sliced", "2 tablespoons minced pickled ginger", "1/4 cup tonkatsu sauce or barbeque sauce"],
+		"directions": ["Fry the bacon in a large skillet over medium heat until slightly crispy. Remove to paper towels to drain and set aside.", "In a large bowl, stir together the water and eggs. Gradually stir in the flour and salt until smooth. Add the cabbage and ginger; stir until evenly distributed.", "Heat a skillet over medium heat and coat with cooking spray. Pour about 1/4 of the batter into the center of the skillet. Place 4 slices of cooked bacon in the center. Use a spatula to shape the pancake into a circle. Fry for about 5 minutes or until the edges are dry. Flip and cook on the other side until the center is stable and it is browned on both sides. Remove from the pan and drizzle with tonkatsu sauce to serve. Continue with remaining batter and bacon."],
+		"tags": ["japanese", "pork", "vegetable", "dinner"]
+	},
+
+	{
+		"name": "Japanese Banana Rice Pudding",
+		"time": "50 minutes",
+		"photo": "./photos/banana_rice.jpg",
+		"ingredients": ["2 bananas", "1 tablespoon white sugar", "1 cup milk", "1 cup cooked short-grain white rice", "2 egg yolks", "3 tablespoons white sugar", "2 tablespoons butter, melted", "1 pinch salt", "1/2 cup whipped cream"],
+		"directions": ["Slice 1/2 of 1 banana and sprinkle 1 tablespoon sugar over it.", "Chop the remaining bananas and place in a skillet over medium heat; stir and mash until bananas become heated through, are slightly browned, and hold together in a ball, 5-10 minutes. Remove from heat.", "Mix milk, rice, egg yolks, 3 tablespoons sugar, butter, and salt together in a saucepan over low heat until slightly thickened and steamy, 2-3 minutes. Stir in mashed bananas until well blended and heated through. Remove from heat and refrigerate rice pudding until slightly cooled, at least 15 minutes.", "Stir whipped cream into rice pudding until well blended.", "Heat a skillet over medium heat; cook and stir sugared banana slices until sugar has melted and caramelized, 2-4 minutes. Spoon over rice pudding."],
+		"tags": ["japanese", "fruit", "dessert"]
+	},
+
+	{
+		"name": "Italian Chips",
+		"time": "25 minutes",
+		"photo": "./photos/italian_chips.jpg",
+		"ingredients": ["12 wonton wrappers", "1 egg white, beaten", "1/2 teaspoon crumbled dried oregano", "¾ cup freshly grated Parmigiano-Reggiano cheese"],
+		"directions": ["Preheat oven to 400 degrees Fahrenheit. Prepare a baking sheet with cooking spray.", "Arrange the wonton wrappers on the baking sheet in a single layer. Brush each wrapper with egg white; sprinkle with oregano and Parmigiano-Reggiano cheese. Cut each into two triangles using a pizza cutter.", "Bake in the preheated oven until the edges are brown, 6-7 minutes. Transfer to a cooling rack to cool completely. Store in an airtight container up to 2 days."],
+		"tags": ["italian", "easy", "side"]
+	}
+
+]

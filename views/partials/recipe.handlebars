@@ -1,0 +1,49 @@
+<section class="food">
+  <img class="food-photo" src={{photo}} />
+  <div class="food-info">
+    <p class="name">{{name}}</p>
+    <p class="time">Prep Time: {{time}}</p>
+  </div>
+  <div class="button-bar">
+    <button id="trash"><i class="fas fa-trash-alt"></i></button>
+    <button id="utensils"><i class="fas fa-utensils"></i></button>
+  </div>
+  <div id="modal-backdrop" class="hidden"></div>
+  <div id="recipe-modal" class="hidden">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>{{name}}</h3>
+        <button type="button" class="modal-close-button" id="close-recipe-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-content-ing">
+          <div>Ingredients:</div>
+          <ul class="ingredients">
+            {{#each ingredients}}
+              <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        </div>
+        <div class="modal-content-ins">
+          <div>Directions:</div>
+            <ul class="instructions">
+              {{#each directions}}
+                <li>{{this}}</li>
+              {{/each}}
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="not-match-modal-backdrop" class="hidden"></div>
+  <div id="not-match-modal" class="hidden">
+    <div class="not-match-modal-dialog">
+      <div class="modal-header">
+        <h3>Sorry it's not a match...</h3>
+        <button type="button" class="modal-close-button" id="close-not-match-modal">&times;</button>
+        <div class="heart"><i class="fas fa-heart-broken"></i></div>
+      </div>
+    </div>
+  </div>
+</section>

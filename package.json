@@ -1,0 +1,33 @@
+{
+  "name": "master-final",
+  "version": "1.0.0",
+  "description": "Handlebars and templating",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "quick-start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "handlebars views/partials/recipe.handlebars views/partials/match.handlebars -f public/recipeTemplate.js",
+    "prestart": "npm run build",
+    "predev": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs290-sp21/final-project-tinder-but-for-food.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-sp21/final-project-tinder-but-for-food/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-sp21/final-project-tinder-but-for-food#readme"
+}
